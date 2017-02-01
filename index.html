@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>EGB Digital</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600'>
+<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700'>
+ <link href="https://fonts.googleapis.com/css?family=Alegreya+SC|Alegreya+Sans+SC|Arapey|Bungee+Shade|Cormorant+Infant|Cormorant+SC|Crimson+Text|Julius+Sans+One|Libre+Baskerville|Lora|Lustria|Marcellus+SC|Merriweather|Playfair+Display|Playfair+Display+SC|Stardos+Stencil|Tulpen+One" rel="stylesheet">
+ <!-- ANIMATE.JS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+<!-- <nav id="mainnav" class="">
+        <ul class="dotnav dotnav-vertical dotnav-right nav">
+            <li class="awesome-tooltip" title="Home"><a href="#home"></a></li>
+            <li class="awesome-tooltip" title="Mission"><a href="#mission1"></a></li>
+            <li class="awesome-tooltip" title="Projects"><a href="#projects"></a></li>
+            <li class="awesome-tooltip" title="About"><a href="#about"></a></li>        
+        </ul>
+    </nav> -->   
+
+  <main>
+<section class="mast1" id="home">
+   <figure class="mast__bg" style="background-image:url(http://i.giphy.com/Cf7IuI4T47QNG.gif)"></figure>
+  <header class="mast__header  js-clippy">
+    <img id="logo" src="images/bee-303229.png">
+      
+      <h2 class="mast__title">EGBDigital</h2>
+
+      <h4 class="mast__pretitle" id="tech">Tech</h5>
+      <h4 class="mast__pretitle" id="problems">Problems</h5>
+      <h4 class="mast__pretitle" id="elegant">Elegant</h5>
+      <h4 class="mast__pretitle" id="solutions">Solutions</h5>
+      
+      
+      
+  </header>
+</section>
+
+<section class="mast" id="mission1">
+   <figure class="mast__bg" style="background-image:url(https://s-media-cache-ak0.pinimg.com/736x/a3/0d/4e/a30d4ec9e841dd618546db9775ec6fa9.jpg)"></figure>
+  <header class="mast__header  js-clippy">
+    
+    <h2 class="mast__title" >Our Mission</h2><br>
+    <hr class="sep">
+    <h5 class="mast__pretitle"></h5>
+    
+  </header>
+</section>
+  
+<section class="mast" id="projects">
+   <figure class="mast__bg" id="projects" style="background-image:url(images/projectsBackground.jpg)"></figure>
+<header class="mast__header  js-clippy">
+  <h2 class="mast__title">Projects</h2><br>
+  <hr class="sep">
+  <h5 class="mast__pretitle">Get It!</h5>
+  <h5 class="mast__pretitle"><a href="http://litterbot.herokuapp.com/" target = "blank" id="litterbot"> Litterbot</a></h5>
+  <h5 class="mast__pretitle"><a href="https://github.com/bernerd252/liri-node/blob/master/how-to-use-liri.txt" target="blank">Liri<a></h5>
+  <h5 class="mast__pretitle"><a href="http://infinite-harbor-60457.herokuapp.com/" target="blank">DJKhaled Hangman</a></h5>
+  <h5 class="mast__pretitle"><a href="https://fathomless-reaches-30619.herokuapp.com/" target="blank">Friend Finder</a></h5>
+  
+</header>
+</section>
+
+<section class="mast" id="about">
+   <figure class="mast__bg" style="background-image:url(images/aboutBackground.png)"></figure>
+<header class="mast__header  js-clippy">
+  <h5 class="mast__pretitle animated fadeInDown">Edouard Batll<char>&#233</char></h5>
+  <h2 class="mast__title animated fadeIn">About Me</h2><br>
+   <hr class="sep">
+  <p class="animated fadeInUp writting">Full Stack Developer with extensive creative experience. Implements the forecasting of both creative issues and their solutions to ensure a streamlined process of problem-solving between clients and employers. Expertise offered in web development, including Bootstrap, Firebase, Materialize, MongoDb, MySQL Node, React, Sequelize, Three.js. Eligibe to work in USA, EU, UK. Proficient in English, French, Spanish  and Catalan.</p>
+   <hr class="sep">
+</header>
+</section>
+  
+</main>
+
+<div class="border-top"></div>
+<div class="border-left"></div>
+
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+<script type="text/javascript">
+  (function($) {
+  var s,
+  clippy = {
+    settings: {
+      heading: $('.js-clippy'),
+    },
+    init: function() {
+      s = this.settings;
+      this.bindEvents();
+    },
+    bindEvents: function(){
+      $(window).on("load resize scroll", $.proxy(this.getClippy, this));
+    },
+
+    getClippy: function(){
+        s.heading.each(function() {
+          var layerOffset = $(this).closest('article, section').offset(),
+              containerOffset = layerOffset.top - $(window).scrollTop(),
+              clippy = containerOffset - $(this).css("top").replace(/[^-\d\.]/g, '') - $(this).css("margin-top").replace(/[^-\d\.]/g, '');
+          $(this).css('clip', 'rect('+ clippy +'px, auto, auto, auto)');
+        });
+    },
+  };
+   clippy.init();
+})(jQuery);
+</script>
+</html>
