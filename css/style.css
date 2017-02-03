@@ -99,6 +99,18 @@ h3 {
   }
 }
 
+h5 {
+  font-family:'Julius Sans One', sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  line-height: 1.2;
+}
+@media (min-width: 32em) {
+  h5 {
+    font-size: 2em;
+  }
+}
+
 hr.sep {
   border: 0px;
   height: 1px;
@@ -219,8 +231,7 @@ main > section:nth-child(4):not(.site-menu), main > article:nth-child(4):not(.si
 }
 .mast__pretitle {
   margin-bottom: 0.5em;
-  font-size: 2em;
-  font-weight: 400;
+    font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 0.15em;
 }
