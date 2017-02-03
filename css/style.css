@@ -87,12 +87,29 @@ h2 {
   }
 }
 
+h3 {
+  font-family:'Julius Sans One', sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  line-height: 1.2;
+}
+@media (min-width: 32em) {
+  h3 {
+    font-size: 1.75em;
+  }
+}
+
 hr.sep {
   border: 0px;
   height: 1px;
   background: #fff;
   margin: 1.4em auto;
   width: 3em;
+}
+
+#missionStatement{
+  width:50%;
+  margin-left: 25%
 }
 
 main > section:nth-child(1):not(.site-menu), main > article:nth-child(1):not(.site-menu) {
