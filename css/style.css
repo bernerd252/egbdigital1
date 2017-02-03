@@ -112,6 +112,28 @@ hr.sep {
   margin-left: 25%
 }
 
+.stackoverflow{
+  position:absolute;
+  top: -35%;
+  left:14%;
+  /*top:-700px;*/
+}
+
+.stackoverflow1{
+  position:absolute;
+  top: -42%;
+  left:14%;
+  /*top:-700px;*/
+}
+
+
+.stackoverflow2{
+  position:absolute;
+  top: -28%;
+  left:14%;
+  /*top:-700px;*/
+}
+
 main > section:nth-child(1):not(.site-menu), main > article:nth-child(1):not(.site-menu) {
   z-index: 2;
 }
