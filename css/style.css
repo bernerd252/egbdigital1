@@ -9,9 +9,8 @@
 body {
   margin: 0;
   width: 100%;
-  font-family: 'Julius Sans One', sans-serif;
-  font-weight: 400;
-  font-style: normal;
+  
+  
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
@@ -90,13 +89,18 @@ h2 {
 h3 {
   font-family:'Julius Sans One', sans-serif;
   font-weight: 700;
-  font-size: 1em;
+  font-size: 1.35em;
   line-height: 1.2;
 }
 @media (min-width: 32em) {
   h3 {
-    font-size: 1.75em;
+    font-size: 1.35em;
   }
+}
+
+#aboutText{
+  width: 50%;
+  margin-left: 25%;
 }
 
 h5 {
