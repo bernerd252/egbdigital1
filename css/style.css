@@ -89,14 +89,21 @@ h2 {
 h3 {
   font-family:'Julius Sans One', sans-serif;
   font-weight: 700;
-  font-size: 1.35em;
+  font-size: 0.8em;
   line-height: 1.2;
 }
-@media (min-width: 32em) {
+@media (min-width: 34em) {
+  h3 {
+    font-size: 0.9em;
+  }
+}
+
+@media (min-width: 64em) {
   h3 {
     font-size: 1.35em;
   }
 }
+
 
 #aboutText{
   width: 50%;
@@ -110,6 +117,11 @@ h5 {
   line-height: 1.2;
 }
 @media (min-width: 32em) {
+  h5 {
+    font-size: 1.25em;
+  }
+}
+@media (min-width: 80em) {
   h5 {
     font-size: 2em;
   }
@@ -145,7 +157,7 @@ hr.sep {
 
 .stackoverflow2{
   position:absolute;
-  top: -28%;
+  top: -33%;
   left:14%;
   /*top:-700px;*/
 }
