@@ -147,6 +147,13 @@ hr.sep {
   /*top:-700px;*/
 }
 
+.stackoverflowRight{
+  position:absolute;
+  top: -35%;
+  left:80%;
+  /*top:-700px;*/
+}
+
 .stackoverflow1{
   position:absolute;
   top: -42%;
