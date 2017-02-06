@@ -93,7 +93,7 @@ h3 {
   line-height: 1.2;
 }
 
-@media (min-width: 30em) {
+@media (min-width: 34em) {
   h3 {
     font-size: 0.75em;
   }
@@ -124,7 +124,7 @@ h5 {
   line-height: 1.2;
 }
 
-@media (min-width: 30em) {
+@media (min-width: 34em) {
   h5 {
     font-size: 0.9em;
   }
