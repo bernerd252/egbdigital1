@@ -150,14 +150,32 @@ hr.sep {
 .stackoverflowRight{
   position:absolute;
   top: -35%;
-  left:80%;
+  left:75%;
   /*top:-700px;*/
 }
 
+/*@media (min-width: 18em) {
+  .stackoverflowRight {
+    left: 40%;
+  }
+}
+@media (min-width: 32em) {
+  h5 {
+   left:75%;
+  }
+}
+*/
 .stackoverflow1{
   position:absolute;
   top: -42%;
   left:14%;
+  /*top:-700px;*/
+}
+
+.stackoverflowRight1{
+  position:absolute;
+  top: -42%;
+  left:75%;
   /*top:-700px;*/
 }
 
@@ -166,6 +184,13 @@ hr.sep {
   position:absolute;
   top: -33%;
   left:14%;
+  /*top:-700px;*/
+}
+
+.stackoverflowRight2{
+  position:absolute;
+  top: -33%;
+  left:75%;
   /*top:-700px;*/
 }
 
