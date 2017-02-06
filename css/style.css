@@ -89,13 +89,13 @@ h2 {
 h3 {
   font-family:'Julius Sans One', sans-serif;
   font-weight: 700;
-  font-size: 0.8em;
+  
   line-height: 1.2;
 }
 
-@media (min-width: 34em) {
+@media (min-width: 20em) {
   h3 {
-    font-size: 0.75em;
+    font-size: 0.6em;
   }
 }
 
@@ -124,9 +124,9 @@ h5 {
   line-height: 1.2;
 }
 
-@media (min-width: 34em) {
+@media (min-width: 20em) {
   h5 {
-    font-size: 0.9em;
+    font-size: 0.75em;
   }
 }
 
