@@ -107,7 +107,7 @@ h3 {
 
 @media (min-width: 64em) {
   h3 {
-    font-size: 1.35em;
+    font-size: 1em;
   }
 }
 
@@ -137,7 +137,7 @@ h5 {
 }
 @media (min-width: 80em) {
   h5 {
-    font-size: 2em;
+    font-size: 1.25em;
   }
 }
 
